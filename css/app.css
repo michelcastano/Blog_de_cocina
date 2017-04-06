@@ -1,0 +1,12 @@
+div{
+  border: 1px solid black;
+  min-height: 5rem;
+}
+
+body{
+  background-image: url('../img/cocina.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:bottom;
+  padding: 0;
+}
