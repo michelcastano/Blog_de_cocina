@@ -1,12 +1,36 @@
-div{
-  border: 1px solid black;
-  min-height: 5rem;
+body{
+  background: url(../img/cocina.jpg) no-repeat center center fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-position:bottom;
+  min-height: 100rem;
 }
 
-body{
-  background-image: url('../img/cocina.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position:bottom;
-  padding: 0;
+.contenedor{
+  max-width: 62.5rem;
+  background-color: rgba(203, 137, 155, 0.4);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.slogan{
+  text-align: right;
+  font-style: italic;
+}
+
+.empty-nav {
+    border-left: 1px solid #721099;
+    margin-top: 0.5rem;
+}
+
+hr{
+  border-bottom: 1px solid #721099;
+  background-color: rgba(203, 137, 155, 0.4);
+  max-width: 60rem;
+}
+
+.favtitle{
+  color: #721099;
 }
